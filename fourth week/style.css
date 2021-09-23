@@ -1,0 +1,29 @@
+h1{
+  font-size: 45px;
+}
+
+body{
+  background-color: pink;
+}
+
+#top{
+  background_color: rgb (30,30,0);
+  border: solid .50px white;
+  border-radious: 10px;
+
+}
+ul{
+  color : red;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+img {
+  width: 25vw:
+  margin: 10px;
+}
+
+form {
+  margin-left: 20px;
+  font-size: 2vw;
+}

@@ -1,0 +1,54 @@
+body{
+  font-family: Tinos;
+  font-style: normal;
+  background-color: #80BD9E;
+  color: #FFFFFF
+}
+
+#top{
+  background-color: #FF420E;
+  font-size: 30px;
+  text-align: center;
+  border: solid .50px white;
+  border-radious: 10px;
+}
+#name{
+  background-color: #F98866;
+  border: solid .50px white;
+  border-radious: 10px;
+  text-align: center;
+}
+
+#list{
+background-color: #F98866;
+border: solid .50px white;
+border-radious: 10px;
+
+}
+
+#goals{
+  background-color: #F98866;
+  border: solid .50px white;
+  border-radious: 10px;
+
+}
+
+img{
+  width: 40vw;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: dotted 10px #89DA59;
+}
+
+#list {
+  background-color: #F98866;
+  border: solid .50px white;
+  border-radious: 10px;
+}
+
+#link {
+  border: dotted 2px white;
+}

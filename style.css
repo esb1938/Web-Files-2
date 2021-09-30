@@ -1,35 +1,49 @@
 body{
-  font-family: Tinos;
+  font-family: 'Andada Pro', serif;
+  padding: 0px;
+  margin: 0;
   font-style: normal;
-  background-color: #80BD9E;
-  color: #FFFFFF
+  background-color: #FFFFFF;
+
 }
 
 #top{
-  background-color: #FF420E;
+  background-color: #FFFFFF;
   font-size: 30px;
   text-align: center;
-  border: solid .50px white;
+  border: solid 7px #FF420E;
   border-radious: 10px;
+  padding: 5px;
+  margin: 5;
+  color: #FF420E
 }
 #name{
-  background-color: #F98866;
-  border: solid .50px white;
+  background-color: #FFFFFF;
+  border: solid 5px #F98866;
   border-radious: 10px;
   text-align: center;
+  padding: 5px;
+  margin: 5;
+  color: #F98866;
 }
 
 #list{
-background-color: #F98866;
-border: solid .50px white;
+background-color: #FFFFFF;
+border: solid 5px #7DE2F9;
 border-radious: 10px;
+padding: 10px;
+margin: 10;
+color:  #7DE2F9;
 
 }
 
 #goals{
-  background-color: #F98866;
-  border: solid .50px white;
+  background-color: #FFFFFF;
+  border: solid 5px #80BD9E;
   border-radious: 10px;
+  padding: 10px;
+  margin: 10;
+  color: #80BD9E
 
 }
 
@@ -43,12 +57,9 @@ img{
   border: dotted 10px #89DA59;
 }
 
-#list {
-  background-color: #F98866;
-  border: solid .50px white;
-  border-radious: 10px;
-}
-
 #link {
-  border: dotted 2px white;
+  color: black;
+  padding: 2px;
+  margin: 2;
+
 }

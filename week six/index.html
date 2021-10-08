@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Week 6 </title>
+  <title> Week 5: Hello Me </title>
   <link rel ="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
 </head>
@@ -34,22 +34,23 @@
   <section id="line">
     <hr>
   </section>
+
   <section id = "button1">
     <h4> FAVORITE THINGS: </h4>
-    <button id = "mybutton">FOOD</button>
+    <button id = "mybutton1">FOOD</button>
   </section>
   <section id = "button2">
     <button id="mybutton2"> DRINK </button>
   </section>
 
 <script>
-  document.getElementById("button1").addEventListener("click", visitPage);
+  document.getElementById("mybutton1").addEventListener("click", visitPage);
     function visitPage() {
        window.location.assign("https://hapasushi.com/");
     }
-  document.getElementById("button2").addEventListener("click", visitPage);
-    function visitPage() {
-           window.location.assign("https://ozocoffee.com/");
+  document.getElementById("mybutton2").addEventListener("click", visitPage2);
+    function visitPage2() {
+           window.location.assign("https://www.pekoe.com/");
         }
 
 </script>

@@ -1,0 +1,46 @@
+body{
+  background-color: white;
+}
+
+#title{
+  font-family: 'Andada Pro', serif;
+  font-size: 30px;
+  color: #FB4570;
+  text-align: center;
+}
+
+#box{
+  background-color: #FB8DA0;
+  margin: 20vh 20vw;
+  padding: 8vh 8vw 8vh 8vw;
+  height: 30vh;
+  border: double 7px #FB6B90;
+}
+h2{
+  color: white;
+  font-family: 'Andada Pro', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: left;
+  margin-top: 8vh;
+  background-color: #FB6B90;
+  color:#EFEBE0;
+  font-family:'Andada Pro', serif;
+  font-weight:bold;
+  position:absolute;
+  bottom:200px;
+  right:570px;
+}
+
+button:hover{
+  border: #EFEBE0 solid 1px;
+}
+
+button:active{
+  color: #A91B60;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Legally Blonde Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id = "title">
+  <h1> LEGALLY BLONDE QUOTE MACHINE </h1>
+</section>
+<section id="box">
+<h2 id="text">Click the button for another Legally Blonde Quote!</h2>
+<button id="newquote">New Quote</button>
+</section>
+
+<script>
+  const quotes = ["I don’t need backups. I’m going to Harvard.", "I’m Elle Woods and this is Bruiser Woods and we’re both Gemini vegetarians.", "Oh, I like your outfit, too, except when I dress up as a frigid b*tch, I try not to look so constipated.", "When used appropriately, it has an 83 percent rate of return on a dinner invitation. It’s called the bend and snap.", "If I’m gonna be partner in a law firm by the time I’m 30, I’m going to need a boyfriend who’s not such a complete bonehead.", "This is gonna be just like senior year, except for funner!"];
+  let quotecount = 0;
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("text").innerHTML = quotes[quotecount];
+    if(quotecount>=5){
+      quotecount = 0;
+    }else{
+    quotecount++;
+    }
+  }
+</script>
+
+</body>
+
+</html>

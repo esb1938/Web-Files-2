@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Self Care Machine</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.google.com/specimen/Sumana?query=sumana" rel="stylesheet">
+</head>
+<body>
+<section id = "title">
+  <h1> Self Care Guide</h1>
+</section>
+<section id="box">
+<h2 id="text">Click the button to find your day!</h2>
+<button id="newquote">New Day</button>
+</section>
+<section id = "middle">
+<h2 id = "middle"> Quick Self Care Fixes</h2>
+</section>
+<button id="relax">Immediate Relaxation</button>
+<button id="workout">30 Sec Workout</button>
+<button id="journal">Journaling Topic Idea</button>
+<button id="fact">Mental Healtht Fact</button>
+<script>
+  const quotes = ["Monday","Tuesday","Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ];
+  let quotecount = 0;
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("text").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }else{
+    quotecount++;
+    }
+  }
+</script>
+
+</body>
+
+</html>

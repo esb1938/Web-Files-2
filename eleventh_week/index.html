@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Week 11 </title>
+  <link rel ="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="top" >
+    <h1>MY SITE</h1>
+  </section>
+  <section id = "photos">
+    <img src= "../assets/esther.JPG" alt = "esther by a sign" />
+    <img src= "../assets/outside.jpeg" alt= "girls with their back turned" />
+    <img src = "../assets/selfie.jpeg" alt = "selfie of dog and esther" />
+    <img src = "../assets/hike.jpeg" alt = "esther on a hike with thumbs up" />
+  </section>
+  <section id = "name">
+    <h2> My name is Esther Barnett and my pronouns are she/her! </h2>
+  </section>
+  <section id = "list" >
+    <h3> About Me: </h3>
+    <ul>
+      <li>I have grown up in Boulder my whole life.</li>
+      <li>I am a senior studying Business with an emphasis in Business Analytics and a minor in CTD!</li>
+      <li>I am hoping to move to Denver after graduation!
+    </ul>
+  </section>
+  <section id = "goals" >
+    <h3>My goals for this course are:</h3>
+    <ul>
+      <li>To improve on my coding skills</li>
+      <li>To learn a new form of code that I haven't learned before</li>
+      <li>To understand a creative way to utilize coding</li>
+    </ul>
+  </section>
+  <section id="line">
+    <hr>
+  </section>
+
+  <section id = "button1">
+    <h4> FAVORITE THINGS: </h4>
+    <button id = "mybutton1">FOOD</button>
+  </section>
+  <section id = "button2">
+    <button id="mybutton2"> DRINK </button>
+  </section>
+
+<script>
+  document.getElementById("mybutton1").addEventListener("click", visitPage);
+    function visitPage() {
+       window.location.assign("https://hapasushi.com/");
+    }
+  document.getElementById("mybutton2").addEventListener("click", visitPage2);
+    function visitPage2() {
+           window.location.assign("https://www.pekoe.com/");
+        }
+
+</script>
+
+</body>
+
+</html>

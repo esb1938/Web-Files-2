@@ -1,0 +1,66 @@
+body{
+  font-family: 'Faustina', serif;
+  padding: 0px;
+  margin: 0;
+  font-style: normal;
+  background-image: url("background.JPG");
+  background-blend-mode: lighten;
+}
+
+#top{
+  text-align: center;
+  border: solid 5px #D6FFF6;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  color: #122932;
+}
+
+@media screen and (max-width: 801px){
+  #name h2{
+    font-size: 18px;
+  }
+  #top h1{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 800px){
+  #name h2{
+    font-size: 25px;
+  }
+  #top h1{
+    font-size: 40px;
+  }
+}
+
+h2{
+  color: #122932;
+  text-align: center;
+
+}
+button{
+  background-color: #FFB7C3;
+   border: 1px solid #FFB7C3;
+   border-radius: 6px;
+   color: #122932;
+   font-size: 18.5px;
+   padding: 10px 24px;
+   width: 20%;
+   display: block;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+button:hover{
+  border: #F4989C solid 1px;
+}
+
+button:active{
+  background-color: #F4989C;
+  border-color: #FC989C;
+}
+
+.linkedin{
+  bottom: 300px;
+  right: 600px;
+}
